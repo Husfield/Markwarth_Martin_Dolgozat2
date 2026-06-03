@@ -8,14 +8,32 @@ body {
     width: 80%;
     max-width: 1200px;
     margin: auto;
+    font-family: sans-serif;
 }
-h1,
-p,
+
+
+a {
+     color: rgb(245, 220, 1);
+    text-decoration: none;
+    
+}
 nav{
     text-align: center;
-    color: rgb(245, 220, 1);
+
 }
 img{
     width: 100%;
+    border-radius: 10px;
+}
+#Egész{
+    width: 100%;
+    background-color: aquamarine;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+@media screen and (max-width:600px){
     
 }
