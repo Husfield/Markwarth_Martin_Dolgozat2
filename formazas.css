@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(forrasok/fooldal_forrasok/torino.png);
+    background-size: 100%;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+h1,
+p,
+nav{
+    text-align: center;
+    color: rgb(245, 220, 1);
+}
+img{
+    width: 100%;
+    
+}
