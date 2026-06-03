@@ -4,16 +4,25 @@
 
 body {
     background-image: url(forrasok/fooldal_forrasok/torino.png);
-    background-size: 100%;
+    background-size: cover;
     width: 80%;
     max-width: 1200px;
     margin: auto;
     font-family: sans-serif;
+
 }
 
-
+p {
+    size: 15px;
+}
+.hal{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: #000;
+}
 a {
-     color: rgb(245, 220, 1);
+    color: rgb(245, 220, 1);
     text-decoration: none;
     
 }
@@ -21,19 +30,31 @@ nav{
     text-align: center;
 
 }
+footer {
+    width: 100%;
+    background-color: aquamarine;
+    color: black;
+}
 img{
     width: 100%;
     border-radius: 10px;
+   
 }
 #Egész{
     width: 100%;
-    background-color: aquamarine;
-    
+    padding: 10px 20px 30px 40px;
+    background-color: rgb(44, 180, 151);
+    background-size: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
 }
 
 @media screen and (max-width:600px){
-    
+    #Egész {
+        grid-template-columns: 1fr;
+    }
+    body {
+        width: 100%;
+    }
 }
